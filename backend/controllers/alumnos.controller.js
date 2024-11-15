@@ -1,8 +1,8 @@
-import { modelo } from "../models/alumnos.model";
+import { Modelo } from "../models/alumnos.model.js";
 
-modelo.create({
+Modelo.create({
     Name:"Rodolfo",
-    edad:25
+    Edad:25
 })
 
 export const test1 = ()=>{
